@@ -4,9 +4,10 @@ Pod::Spec.new do |s|
   s.summary      = "An UIButton with TopImage and BottomLabel"
   s.homepage     = "https://github.com/AliThink/ImageCenterButton"
   s.license      = "MIT"
-  s.author             = { "AliThink" => "cloudsthinker@126.com" }
+  s.author       = { "AliThink" => "cloudsthinker@126.com" }
   s.source       = { :git => "https://github.com/AliThink/ImageCenterButton.git", :tag => "v0.1.4" }
   s.source_files  = "ImageCenterButton/**/*.{h,m}"
-  s.platform      = :ios, '7.0'
+  s.ios.deployment_target = '9.3'
+  s.tvos.deployment_target = '9.3'
   s.requires_arc  = true
 end
